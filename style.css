@@ -1,0 +1,58 @@
+body {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.title {
+    margin-top: 150px;
+    
+}
+
+.container-score {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 40px;
+    font-size: larger;
+}
+
+.Container-emoji-principal {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.button-emoji {
+    transform: scale(3.75);
+    border: solid 1px ;
+    border-radius: 2px;
+    background-color: white;
+    padding-bottom: 3px;
+    cursor: pointer;
+    
+}
+
+.emojis {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    gap: 100px;
+}
+
+
+
+.container-emoji {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+
+.none {
+    display: none;
+}
+
+
